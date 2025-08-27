@@ -35,7 +35,6 @@ import scala.collection.mutable
 import scala.jdk.CollectionConverters.MapHasAsScala
 
 object CollaborationResource {
-  // abcd
   final val sessionIdSessionMap = new mutable.HashMap[String, Session]()
   final val sessionIdWIdMap = new mutable.HashMap[String, Int]()
   final val sessionIdUIdMap = new mutable.HashMap[String, Int]()
